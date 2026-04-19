@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AF56EFF-06A1-43D1-84BC-9868C8A6F165}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WingBite</RootNamespace>
+    <AssemblyName>WingBite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory Tracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory Tracking.Designer.cs">
+      <DependentUpon>Inventory Tracking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen Process Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitchen Process Management.Designer.cs">
+      <DependentUpon>Kitchen Process Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitchen Queue Display.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitchen Queue Display.Designer.cs">
+      <DependentUpon>Kitchen Queue Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logout.Designer.cs">
+      <DependentUpon>Logout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Page.Designer.cs">
+      <DependentUpon>Main Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu or Product Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu or Product Module.Designer.cs">
+      <DependentUpon>Menu or Product Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order Entry Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order Entry Form.Designer.cs">
+      <DependentUpon>Order Entry Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order status and Order dispatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order status and Order dispatch.Designer.cs">
+      <DependentUpon>Order status and Order dispatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment Form.Designer.cs">
+      <DependentUpon>Payment Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report Detail.Designer.cs">
+      <DependentUpon>Report Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Module.Designer.cs">
+      <DependentUpon>Sales Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Report Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Report Module.Designer.cs">
+      <DependentUpon>Sales Report Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sales Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales Reports.Designer.cs">
+      <DependentUpon>Sales Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction Record.Designer.cs">
+      <DependentUpon>Transaction Record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management.Designer.cs">
+      <DependentUpon>User Management.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory Tracking.resx">
+      <DependentUpon>Inventory Tracking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitchen Process Management.resx">
+      <DependentUpon>Kitchen Process Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitchen Queue Display.resx">
+      <DependentUpon>Kitchen Queue Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logout.resx">
+      <DependentUpon>Logout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Page.resx">
+      <DependentUpon>Main Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu or Product Module.resx">
+      <DependentUpon>Menu or Product Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order Entry Form.resx">
+      <DependentUpon>Order Entry Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order status and Order dispatch.resx">
+      <DependentUpon>Order status and Order dispatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment Form.resx">
+      <DependentUpon>Payment Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report Detail.resx">
+      <DependentUpon>Report Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Module.resx">
+      <DependentUpon>Sales Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Report Module.resx">
+      <DependentUpon>Sales Report Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales Reports.resx">
+      <DependentUpon>Sales Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction Record.resx">
+      <DependentUpon>Transaction Record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management.resx">
+      <DependentUpon>User Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transac-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdfdg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdfdg-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSWallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSWallpaper-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123456-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventoryy-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitsen-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesss-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2026-04-18_150957-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen_que-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitsen-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%292.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
