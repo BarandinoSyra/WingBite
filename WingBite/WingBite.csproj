@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Product.Designer.cs">
+      <DependentUpon>Add Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Product.Designer.cs">
+      <DependentUpon>Delete Product.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +156,12 @@
     <Compile Include="User Management.Designer.cs">
       <DependentUpon>User Management.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Add Product.resx">
+      <DependentUpon>Add Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Product.resx">
+      <DependentUpon>Delete Product.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

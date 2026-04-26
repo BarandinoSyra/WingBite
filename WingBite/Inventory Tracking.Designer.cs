@@ -32,10 +32,8 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.btnLowStockReport = new System.Windows.Forms.Button();
             this.btnRefreshAll = new System.Windows.Forms.Button();
-            this.btnAddNewProduct = new System.Windows.Forms.Button();
             this.lblSearch = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.btnLowStockOnly = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.lblProductStock = new System.Windows.Forms.Label();
             this.dgvInventory = new System.Windows.Forms.DataGridView();
@@ -102,19 +100,6 @@
             this.btnRefreshAll.Text = "Refresh All";
             this.btnRefreshAll.UseVisualStyleBackColor = false;
             // 
-            // btnAddNewProduct
-            // 
-            this.btnAddNewProduct.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnAddNewProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddNewProduct.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddNewProduct.ForeColor = System.Drawing.Color.Black;
-            this.btnAddNewProduct.Location = new System.Drawing.Point(340, 457);
-            this.btnAddNewProduct.Name = "btnAddNewProduct";
-            this.btnAddNewProduct.Size = new System.Drawing.Size(157, 31);
-            this.btnAddNewProduct.TabIndex = 29;
-            this.btnAddNewProduct.Text = "Add New Product";
-            this.btnAddNewProduct.UseVisualStyleBackColor = false;
-            // 
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
@@ -133,26 +118,13 @@
             this.txtSearch.Size = new System.Drawing.Size(248, 24);
             this.txtSearch.TabIndex = 31;
             // 
-            // btnLowStockOnly
-            // 
-            this.btnLowStockOnly.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnLowStockOnly.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLowStockOnly.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLowStockOnly.ForeColor = System.Drawing.Color.Black;
-            this.btnLowStockOnly.Location = new System.Drawing.Point(587, 95);
-            this.btnLowStockOnly.Name = "btnLowStockOnly";
-            this.btnLowStockOnly.Size = new System.Drawing.Size(157, 31);
-            this.btnLowStockOnly.TabIndex = 32;
-            this.btnLowStockOnly.Text = "Show Low Stock";
-            this.btnLowStockOnly.UseVisualStyleBackColor = false;
-            // 
             // btnRefresh
             // 
             this.btnRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.Color.Black;
-            this.btnRefresh.Location = new System.Drawing.Point(410, 95);
+            this.btnRefresh.Location = new System.Drawing.Point(587, 93);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(157, 31);
             this.btnRefresh.TabIndex = 33;
@@ -247,7 +219,7 @@
             // 
             // btnUpdateStock
             // 
-            this.btnUpdateStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnUpdateStock.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnUpdateStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateStock.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateStock.ForeColor = System.Drawing.Color.Black;
@@ -285,10 +257,8 @@
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.lblProductStock);
             this.Controls.Add(this.btnRefresh);
-            this.Controls.Add(this.btnLowStockOnly);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblSearch);
-            this.Controls.Add(this.btnAddNewProduct);
             this.Controls.Add(this.btnRefreshAll);
             this.Controls.Add(this.btnLowStockReport);
             this.Controls.Add(this.btnBack);
@@ -311,10 +281,8 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnLowStockReport;
         private System.Windows.Forms.Button btnRefreshAll;
-        private System.Windows.Forms.Button btnAddNewProduct;
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnLowStockOnly;
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Label lblProductStock;
         private System.Windows.Forms.DataGridView dgvInventory;
