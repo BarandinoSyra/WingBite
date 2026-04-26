@@ -16,5 +16,10 @@ namespace WingBite
         {
             InitializeComponent();
         }
+
+        private void panelWallpaper_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
