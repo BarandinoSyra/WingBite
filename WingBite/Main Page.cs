@@ -16,5 +16,10 @@ namespace WingBite
         {
             InitializeComponent();
         }
+
+        private void lblSalesManagement_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
